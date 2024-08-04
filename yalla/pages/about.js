@@ -3,11 +3,10 @@ import Footer from '@/Components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'
 
 function about() {
-    return ( <
-        div >
-
-        <
-        /div>
+    return ( 
+        <div >
+        
+        </div>
     )
 }
 

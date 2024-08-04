@@ -23,7 +23,7 @@ function ServicesAll() {
         <Paragraph variant='homepara'>There are five main types of plumbing pipe materials that are still in use today <br/> copper galvanized steel.</Paragraph>
       </div>
     <Container>
-    <div className='grid grid-cols-2 gap-[20px]'>
+    <div className='grid xl:grid-cols-2 lg:grid-cols-1 grid-cols-1 gap-[20px]'>
         <AnchorTag href=''>
           <ServicesMoli src='/assits/images/plumber/paint.jpg' headeing='Paint Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
         </AnchorTag>

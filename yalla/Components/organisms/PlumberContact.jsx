@@ -8,9 +8,9 @@ function PlumberContact() {
   return (
     <div>
       <Container>
-        <div className='flex w-[100%] justify-between '>
-          <div data-aos="fade-in-right" className=' flex flex-col w-[48%] gap-[20px] '>
-            <img className='w-[600px] rounded-[10px] ' src="/assits/images/contact.jpg" alt="" />
+        <div className='flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col w-[100%] justify-between '>
+          <div data-aos="fade-in-right" className=' flex flex-col xl:w-[48%] lg:w-[48%] md:w-[100%] sm:w-[100%] w-[100%] gap-[20px] '>
+            <img className='xl:w-[600px] lg:w-[600px] md:w-[100%] sm:w-[100%] w-[100%px] rounded-[10px] ' src="/assits/images/contact.jpg" alt="" />
             <div className=' '>
               <Heading level='3'>Need to connect with a specific office?</Heading>
               <div className=''>
@@ -19,7 +19,7 @@ function PlumberContact() {
             </div>
           </div>
 
-          <div className='w-[48%]  '>
+          <div className='xl:w-[48%] lg:w-[48%] md:w-[100%] sm:w-[100%] w-[100%]  '>
             <form>
               <div className='flex gap-[30px]'>
                 <div data-aos='fade-up' data-aos-duration="500" className="pt-[15px] w-[50%]">
