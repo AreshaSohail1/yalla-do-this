@@ -7,6 +7,9 @@ import MaintainceService from '@/Components/moleculus/MaintainceService'
 import Temperature from '@/Components/moleculus/Temperature'
 import Relaxation from '@/Components/moleculus/Relaxation'
 import Tempature from '@/Components/moleculus/Tempature'
+import ServicesMoli from '@/Components/moleculus/ServicesMoli'
+import ServicesAll from '@/Components/organisms/ServicesAll'
+import Container from '@/Components/atoms/Container'
 
 
 function home() {
@@ -20,6 +23,7 @@ function home() {
         <Relaxation/>
         {/* link */}
         <Tempature/>
+
         <Footer/>
         
 
