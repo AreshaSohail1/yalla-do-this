@@ -9,13 +9,14 @@ import Footer from './Footer'
 function Electricservice() {
   return (
     <div>
-         <Electricbanner/>
-         <Electricban1/> 
-         <Electircban2/>
-         <ElectircHeading/>
-         <Electricimages/>
-         <Footer/>
-      
+      <Electricbanner />
+      <Electricban1 />
+      <Electircban2 />
+      <ElectircHeading />
+      <Electricimages />
+
+      <Footer />
+
     </div>
   )
 }

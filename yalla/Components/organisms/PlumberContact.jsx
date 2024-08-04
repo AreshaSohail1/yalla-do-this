@@ -36,14 +36,14 @@ function PlumberContact() {
                 </div>
               </div>
               <div className='flex gap-[30px]'>
-                <div  data-aos='fade-up' data-aos-duration="1000" className="pt-[15px] w-[50%]">
+                <div data-aos='fade-up' data-aos-duration="1000" className="pt-[15px] w-[50%]">
                   <div className='font-semibold text-[14px] mb-[10px] text-[#242424]'>
                     <Label> Phone</Label>
                   </div>
                   <Input variant='five' placeholder="Phone" type="number" />
                 </div>
 
-                <div  data-aos='fade-up' data-aos-duration="1400" className="pt-[20px] w-[50%]">
+                <div data-aos='fade-up' data-aos-duration="1400" className="pt-[20px] w-[50%]">
                   <div className='font-semibold text-[14px] mb-[10px] text-[#242424]'>
                     <Label>Your Email </Label>
                   </div>
@@ -51,14 +51,14 @@ function PlumberContact() {
                 </div>
               </div>
 
-              <div  data-aos='fade-up' data-aos-duration="1700" className="pt-[20px] w-full">
+              <div data-aos='fade-up' data-aos-duration="1700" className="pt-[20px] w-full">
                 <div className='font-semibold text-[14px] mb-[10px] text-[#242424]'>
                   <Label>Subject</Label>
                 </div>
                 <Input variant="five" type="text" placeholder="Subject" />
               </div>
 
-              <div  data-aos='fade-up' data-aos-duration="2000" className="pt-[20px] w-full">
+              <div data-aos='fade-up' data-aos-duration="2000" className="pt-[20px] w-full">
                 <div className='font-semibold text-[14px] mb-[10px] text-[#242424]'>
                   <Label>Message</Label>
                 </div>
@@ -66,7 +66,7 @@ function PlumberContact() {
               </div>
 
               <div className="pt-5">
-                <button  data-aos='fade-up' data-aos-duration="2200" type="submit" className="bg-blue-500 rounded-[10px] duration-[0.3s] ease-in-out  h-[40px] border-[1px] border-blue-500 hover:text-blue-500 hover:bg-white  cursor-pointer font-medium text-[16px] text-center w-[100%] py-2 px-6 text-white">Send Message</button>
+                <button data-aos='fade-up' data-aos-duration="2200" type="submit" className="bg-blue-500 rounded-[10px] duration-[0.3s] ease-in-out  h-[40px] border-[1px] border-blue-500 hover:text-blue-500 hover:bg-white  cursor-pointer font-medium text-[16px] text-center w-[100%] py-2 px-6 text-white">Send Message</button>
               </div>
             </form>
           </div>
