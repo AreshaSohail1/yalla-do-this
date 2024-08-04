@@ -12,16 +12,17 @@ import Work from '@/Components/moleculus/Work'
 function home() {
   return (
     <div>
-        <Headermain/>
-        <Banner/>
-        <Section/>
-        <Temperature/>
-        <MaintainceService/>
-        <Relaxation/>
-        <Work/>
-        <Tempature/>
-        <Footer/>
-        
+      <Headermain />
+      <Banner />
+      <Section />
+      <Temperature />
+      <MaintainceService />
+      <Relaxation />
+      <Work />
+      <Tempature />
+
+      <Footer />
+
 
     </div>
   )
