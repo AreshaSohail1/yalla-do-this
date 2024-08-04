@@ -7,7 +7,7 @@ import MaintainceService from '@/Components/moleculus/MaintainceService'
 import Temperature from '@/Components/moleculus/Temperature'
 import Relaxation from '@/Components/moleculus/Relaxation'
 import Tempature from '@/Components/moleculus/Tempature'
-
+import Work from '@/Components/moleculus/Work'
 
 function home() {
   return (
@@ -18,7 +18,7 @@ function home() {
         <Temperature/>
         <MaintainceService/>
         <Relaxation/>
-        {/* link */}
+        <Work/>
         <Tempature/>
         <Footer/>
         
