@@ -5,6 +5,7 @@ import Footer from '@/Components/organisms/Footer'
 import Section from '@/Components/moleculus/Section'
 import MaintainceService from '@/Components/moleculus/MaintainceService'
 import Temperature from '@/Components/moleculus/Temperature'
+import Relaxation from '@/Components/moleculus/Relaxation'
 
 function home() {
   return (
@@ -14,6 +15,7 @@ function home() {
         <Section/>
         <Temperature/>
         <MaintainceService/>
+        <Relaxation/>
         {/* <Footer/> */}
 
     </div>

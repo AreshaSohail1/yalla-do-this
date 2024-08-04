@@ -29,7 +29,7 @@ function Temperature() {
                     <div className='flex-wrap flex  z-100 gap-[20px] mt-[35px]'>
                         <div className='text-center bg-white h-[340px] rounded w-[32%]  '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                     <FaFan />
                                 </div>
                                 <div className='grid gap-[20px]'>
@@ -41,7 +41,7 @@ function Temperature() {
                         </div>
                         <div className='text-center bg-white h-[340px] w-[32%] rounded   '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                 <BsTools />
                                 </div>
                                 <div className='grid gap-[20px]'>
@@ -53,7 +53,7 @@ function Temperature() {
                         </div>
                         <div className='text-center bg-white h-[340px] w-[32%] rounded   '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                 <PiPipeLight />
                                 </div>
                                 <div className='grid gap-[20px]'>
@@ -65,7 +65,7 @@ function Temperature() {
                         </div>
                         <div className='text-center bg-white h-[340px] w-[32%] rounded   '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                 <MdAutoAwesome />
                                 </div>
                                 <div className='grid gap-[20px]'>
@@ -77,7 +77,7 @@ function Temperature() {
                         </div>
                         <div className='text-center bg-white h-[340px] w-[32%] rounded   '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                 <MdOutlineRoofing />
                                 </div>
                                 <div className='grid gap-[20px]'>
@@ -89,7 +89,7 @@ function Temperature() {
                         </div>
                         <div className='text-center bg-white h-[340px] w-[32%] rounded   '>
                             <div className='grid gap-[20px]'>
-                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[140px]  mt-[60px]'>
+                                <div className='bg-[#f35748] text-[#ffffff] h-[65px] w-[65px] text-[35px] rounded px-[16px] py-[16px] mx-[168px]  mt-[60px]'>
                                     <FaFan />
                                 </div>
                                 <div className='grid gap-[20px]'>
