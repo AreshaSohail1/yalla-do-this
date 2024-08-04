@@ -11,7 +11,7 @@ function Kitchenban1() {
                     <p className="text-[17px] font-400 leading-[35px] text-[black]">If you need tile installation or repair services in Dubai, then please contact us today. We would be happy to discuss your requirements and provide you with a free quote.</p>
                 </div>
                 <div className="w-[48%] shadow-slate-500 mt-[30px]">
-                    <img src="/assits/images/Electronic2.jpeg" alt="" width='100%' height='100%' />
+                    <img src="/assits/images/kitch1.jpg" alt="" width='100%' height='100%' />
                 </div>
             </div>
         </Container>

@@ -6,6 +6,11 @@ import Kitchenban1 from '../moleculus/Kitchenban1'
 import Kitchenban2 from '../moleculus/Kitchenban2'
 import KitchenHeading from '../moleculus/KitchenHeading'
 import Kitchenimages from '../moleculus/Kitchenimages'
+import PlumberContact from './PlumberContact'
+import Heading from '../atoms/Heading'
+
+
+
 
 function Kitchen() {
     return (
@@ -16,6 +21,12 @@ function Kitchen() {
             <Kitchenban2 />
             <KitchenHeading />
             <Kitchenimages />
+            <div className='p-[50px]'>
+                <Heading level={'2'}>Contact Us</Heading>
+            </div>
+            <div className='my-[70px]'>
+                <PlumberContact />
+            </div>
             <Footer />
         </div>
     )

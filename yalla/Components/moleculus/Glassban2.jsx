@@ -2,17 +2,17 @@ import React from 'react'
 import Container from '../atoms/Container'
 
 
-function Kitchenban2() {
+function Glassban2() {
     return (
 
         <Container>
             <div className='my-[60px] flex justify-between mt-[70px]'>
                 <div className="w-[48%] shadow-slate-500 ">
-                    <img src="/assits/images/bath7.jpg" alt="" width='100%' height='100%' />
+                    <img src="/assits/images/glass3.jpg" alt="" width='100%' height='100%' />
                 </div>
                 <div className=' w-[48%]  flex flex-col gap-[20px]'>
                     <h1 className='text-[34px] font-semibold leading-[41px] text-[black]'>
-                        Rely On Us For Bathroom Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!</h1>
+                        Rely On Us For Glass Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!</h1>
                     <p className='text-[18px] font-400 leading-[35px] text-[black]'>
                         As one of the top tile fixing contractors in Dubai, our team at Rely On Us is proud to offer our professional services to residents and businesses throughout the city. We have a team of experienced and qualified  who are available to help with any tile fixing needs you may have.
                     </p>
@@ -26,4 +26,4 @@ function Kitchenban2() {
     )
 }
 
-export default Kitchenban2
+export default Glassban2

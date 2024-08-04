@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../atoms/Container'
 
-function Bathroomban1() {
+function Glassban1() {
     return (
         <Container>
             <div className='my-[60px] flex justify-between'>
@@ -11,11 +11,11 @@ function Bathroomban1() {
                     <p className="text-[17px] font-400 leading-[35px] text-[black]">If you need tile installation or repair services in Dubai, then please contact us today. We would be happy to discuss your requirements and provide you with a free quote.</p>
                 </div>
                 <div className="w-[48%] shadow-slate-500 mt-[30px]">
-                    <img src="/assits/images/bath5.jpg" alt="" width='100%' height='100%' />
+                    <img src="/assits/images/glass2.jpg" alt="" width='100%' height='100%' />
                 </div>
             </div>
         </Container>
     )
 }
 
-export default Bathroomban1
+export default Glassban1

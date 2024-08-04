@@ -6,12 +6,12 @@ function Kitchenimages() {
     return (
         <Container>
             <div className='flex flex-wrap gap-[20px]'>
-                <Tailimg src="/assits/images/Ele5.jpeg" />
-                <Tailimg src="/assits/images/Ele6.jpeg" />
-                <Tailimg src="/assits/images/Ele7.jpeg" />
-                <Tailimg src="/assits/images/Ele8.jpeg" />
-                <Tailimg src="/assits/images/Ele6.jpeg" />
-                <Tailimg src="/assits/images/Ele5.jpeg" />
+                <Tailimg src="/assits/images/kitch10.jpg" />
+                <Tailimg src="/assits/images/kitch5.jpg" />
+                <Tailimg src="/assits/images/kitch6.jpg" />
+                <Tailimg src="/assits/images/kitch7.jpg" />
+                <Tailimg src="/assits/images/kitch8.jpg" />
+                <Tailimg src="/assits/images/kitch9.jpg" />
             </div>
         </Container>
     )
