@@ -3,7 +3,7 @@ import AnchorTag from '../atoms/Anchortag'
 import "../../app/globals.css"
 import { IoIosArrowDown } from "react-icons/io";
 
-function Header() {
+function  Header() {
     return (
         <div>
             <div className=''>
