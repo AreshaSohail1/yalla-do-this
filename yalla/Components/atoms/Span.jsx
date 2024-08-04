@@ -4,21 +4,25 @@ const Span = ({ level, children }) => {
     const getSpanStyles = (level) => {
         switch (level) {
             case "success":
-                return "text-[23px] text-[#2d334a] font-[700] leading-[1.3em] tracking-[-2px]";
+                return "text-[23px] text-black font-[700] leading-[1.3em] tracking-[-2px]";
             case "footer":
-                return " text-[13px] cursor-pointer text-[#747474] hover:text-[#ff6a28] font-normal";
+                return " text-[13px] cursor-pointer text-black  font-normal";
             case "offers":
                 return "text-[18px] text-black font-[500]  leading-[1em] ";
             case "overview":
-                return "text-[30px] text-[#2d334a] font-[600] leading-[50px] leading-[50px]  ";
+                return "text-[30px] text-black font-[600] leading-[50px] leading-[50px]  ";
             case "work":
-                return "text-[75px] text-[#164b8d] font-[800] pr-[3%] ";
+                return "text-[75px] text-black font-[800] pr-[3%] ";
             case "work2":
-                return "text-[27px] font-[700] text-[#212529] whitespace-nowrap ";
-                case "clintbox":
+                return "text-[27px] font-[700] text-black whitespace-nowrap ";
+            case "clintbox":
                 return "text-[60px] font-[800] text-white  ";
-                case "clint":
+            case "clint":
                 return "text-[20px] font-[500] text-white  ";
+            case "contact":
+                return "text-[14px] font-[400] text-black  ";
+            case "flow":
+                return "text-[40px] font-[400] text-[#f35748]  ";
             default:
                 return "text-lg"
         }

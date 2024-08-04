@@ -1,10 +1,12 @@
 import React from 'react'
 import Heading from '../atoms/Heading'
 import { MdArrowOutward } from "react-icons/md";
+import Bannerflow from './Bannerflow'
+
 
 export default function Banner() {
   return (
-    <div className=' '>
+    <div className='bg-[#f5f4f3 '>
       <div className="baner-bg">
         <div className="py-[15%] px-[3%] grid gap-9 ">
           <div className='py-[10px] text-white px-[20px] bg-[#45a6af] w-[23%] '>
@@ -19,6 +21,7 @@ export default function Banner() {
           </div>
         </div>
       </div>
+      <Bannerflow/>
     </div>
   )
 }

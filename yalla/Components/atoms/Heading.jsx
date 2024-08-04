@@ -15,6 +15,11 @@ const Heading = ({ level, children }) => {
                 return "text-[40px] text-[#091736] font- normal"
             case "6":
                 return "text-[14px] font-[400] leading-[1.5em] tracking-[2px]"
+                case "7":
+                    return "text-[50px] text-[#091736] font-[700] leading-[1em] tracking-[-2px]";
+                    case "8":
+                        return "text-[28px] text-[#091736] font-[700] leading-[1em] tracking-[1px]";
+                        
             default:
                 return "text-lg"
         }
@@ -26,4 +31,3 @@ const Heading = ({ level, children }) => {
         level : PropTypes.oneOf(["1","2","3","4","5","6"])
     };
     export default Heading
- 
