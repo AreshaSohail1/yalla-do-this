@@ -1,3 +1,4 @@
+import Offer from '@/Components/moleculus/Offer'
 import Acservicemain from '@/Components/organisms/Acservicemain'
 import Footer from '@/Components/organisms/Footer'
 import Headermain from '@/Components/organisms/Headermain'
@@ -9,7 +10,9 @@ function acservice() {
     <div>
         <Headermain/>
         <Acservicemain/>
-        <Offermain/>
+        <div>
+          <Offer/>
+        </div>
         <Footer/>
     </div>
   )

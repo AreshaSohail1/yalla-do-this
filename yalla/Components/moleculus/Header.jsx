@@ -19,6 +19,7 @@ function Header() {
                         <li><AnchorTag variant='Headerh' href=''>Painting & Partitions</AnchorTag></li>
                         <li><AnchorTag variant='Headerh' href=''>Cleaning Services</AnchorTag></li>
                         <li><AnchorTag variant='Headerh' href=''>Interior Design</AnchorTag></li>
+                        <li><AnchorTag variant='Headerh' href='/celling'>Gypsum Ceiling</AnchorTag></li>
                     </ul>
                     
                     </li>
