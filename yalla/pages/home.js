@@ -8,7 +8,7 @@ import Temperature from '@/Components/moleculus/Temperature'
 import Relaxation from '@/Components/moleculus/Relaxation'
 import Tempature from '@/Components/moleculus/Tempature'
 import Work from '@/Components/moleculus/Work'
-
+import Test from '@/Components/moleculus/Test'
 function home() {
   return (
     <div>
@@ -18,6 +18,7 @@ function home() {
         <Temperature/>
         <MaintainceService/>
         <Relaxation/>
+        <Test/>
         <Work/>
         <Tempature/>
         <Footer/>
