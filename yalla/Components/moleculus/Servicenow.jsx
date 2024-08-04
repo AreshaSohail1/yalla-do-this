@@ -1,6 +1,5 @@
 import React from 'react'
 import Heading from '../atoms/Heading'
-
 function Servicenow() {
   return (
     <div className='w-[100%] bg-[#f3f5f9] '>
@@ -11,5 +10,4 @@ function Servicenow() {
     </div>
   )
 }
-
 export default Servicenow
