@@ -6,7 +6,7 @@ const Span = ({ level, children }) => {
             case "success":
                 return "text-[23px] text-black font-[700] leading-[1.3em] tracking-[-2px]";
             case "footer":
-                return " text-[13px] cursor-pointer text-black  font-normal";
+                return " text-[16px] cursor-pointer text-[#8b8a8a]  font-normal";
             case "offers":
                 return "text-[18px] text-black font-[500]  leading-[1em] ";
             case "overview":
