@@ -12,7 +12,7 @@ function Relaxation() {
         <div>
 
             <Container>
-                <div className='gap-[50px] flex py-[10%]  '>
+                <div className='gap-[50px] flex pt-[20%] pb-[10%]  '>
                     <div className=' grid w-[70%] gap-[10px]'>
                         <Paragraph variant='tempara'>Why choose us</Paragraph>
                         <Heading level='7'>Relaxation and <br /> your satisfaction.</Heading>

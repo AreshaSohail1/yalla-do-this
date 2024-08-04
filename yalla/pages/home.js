@@ -6,6 +6,8 @@ import Section from '@/Components/moleculus/Section'
 import MaintainceService from '@/Components/moleculus/MaintainceService'
 import Temperature from '@/Components/moleculus/Temperature'
 import Relaxation from '@/Components/moleculus/Relaxation'
+import Tempature from '@/Components/moleculus/Tempature'
+
 
 function home() {
   return (
@@ -16,7 +18,10 @@ function home() {
         <Temperature/>
         <MaintainceService/>
         <Relaxation/>
-        {/* <Footer/> */}
+        {/* link */}
+        <Tempature/>
+        <Footer/>
+        
 
     </div>
   )
