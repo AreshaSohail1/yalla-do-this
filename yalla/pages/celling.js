@@ -8,6 +8,7 @@ function celling() {
     <div>
         <Headermain/>
         <Cellingmain/>
+        <Footer/>
     </div>
   )
 }

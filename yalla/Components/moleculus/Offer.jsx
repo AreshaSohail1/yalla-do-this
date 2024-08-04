@@ -8,14 +8,13 @@ function Offer({text, src,contant,Para}) {
             <div className='text-[42px] text-[#091736]   font-[800]'>{contant}</div>
             <div className='  text-[16px] font-[400] '>{Para}</div>
             </div>
-            <div className='  flex  '>
-                <div className=''>
-                    <img className='h-[200px]' src={src} alt="" />
+            <div className='     '>
+                <div className=' '>
+                    <img className='h-[200px] ' src={src} alt="" />
                     <div className='bg-white text-center py-[10px]'>
                     <Span level='offers'>{text}</Span>
                     </div>
                 </div>  
-
                  </div>
                  
         </div>

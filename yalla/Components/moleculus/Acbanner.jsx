@@ -33,7 +33,7 @@ const Acbanner = ({ content, button, paragraph }) => {
         <div className="relative w-[50%] z-10 text-white pt-[10%] px-[8%] p-8">
           <div className="text-[#1e73be] uppercase text-[50px] font-bold mb-5">{content}</div>
           <div className="text-[18px] font-[300] leading-[30px]    ">{paragraph}</div>
-          <div className="mt-[6%] bg-[#164b8d] text-[24px] w-[43%] cursor-pointer hover:bg-[#F97300] ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px]">{button}</div>
+          <div className="mt-[6%] bg-[#164b8d] text-center text-[24px] w-[43%] cursor-pointer hover:bg-[#F97300] ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px]">{button}</div>
         </div>
       </div>
     </div>

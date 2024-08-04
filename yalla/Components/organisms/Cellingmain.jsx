@@ -6,15 +6,17 @@ import Acservicemain from './Acservicemain'
 import Servicenow from '../moleculus/Servicenow'
 import Offermain from './Offermain'
 import Howwork from '../moleculus/Howwork'
-import Footer from './Footer'
-
+import Cellingimg from '../moleculus/cellingimg'
+import Clints from '../moleculus/Clints'
 function Cellingmain() {
   return (
     <div>
         <Cellingall/>
         <Servicenow/>
-        <Offermain/>
-        <Footer/>
+        <Cellingimg/> 
+        <Howwork/>
+        <Clints/>
+        <Getintouch/>      
     </div>
   )
 }

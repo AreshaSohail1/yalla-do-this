@@ -10,9 +10,7 @@ function acservice() {
     <div>
         <Headermain/>
         <Acservicemain/>
-        <div>
-          <Offer/>
-        </div>
+        <Offermain/>
         <Footer/>
     </div>
   )
