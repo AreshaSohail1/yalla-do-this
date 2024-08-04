@@ -22,42 +22,6 @@ function ServicesAll() {
         <Heading level='2'>Service overview</Heading>
         <Paragraph variant='homepara'>There are five main types of plumbing pipe materials that are still in use today <br /> copper galvanized steel.</Paragraph>
       </div>
-<<<<<<< HEAD
-    <Container>
-    <div className='grid xl:grid-cols-2 lg:grid-cols-1 grid-cols-1 gap-[20px]'>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/paint.jpg' headeing='Paint Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/bath.jpg' headeing='Bathroom Renovation' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/celling.jpg' headeing='Celling' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/acclean.jpg' headeing='AC Deep Cleaning' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/partition.jpg' headeing='Gypsum Partition' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/plumber.png' headeing='Plumbing Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/taile.jpg' headeing='Tile Fixing' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/kiten.jpg' headeing='Kitchen Renovation' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/glass.jpg' headeing='Glass Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-        <AnchorTag href=''>
-          <ServicesMoli src='/assits/images/plumber/ele.jpg' headeing='Electrical Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
-        </AnchorTag>
-          </div>
-    </Container>
-=======
       <Container>
         <div className='grid grid-cols-2 gap-[20px]'>
           <AnchorTag href='/painting'>
@@ -92,7 +56,6 @@ function ServicesAll() {
           </AnchorTag>
         </div>
       </Container>
->>>>>>> 72bfe083ad0f5838ddf20a496b979467ce217644
 
     </div>
   );
