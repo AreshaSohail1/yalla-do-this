@@ -4,7 +4,9 @@ import Headermain from './Headermain'
 import AboutImage from '../moleculus/AboutImage'
 import AboutBan2 from './AboutBan2'
 import Maintanceflow2 from '../moleculus/Maintanceflow2'
-
+import Overview from './Overview'
+import Container from '../atoms/Container'
+import Footer from './Footer'
 function About() {
     return (
         <div>
@@ -14,10 +16,12 @@ function About() {
             <div className='mt-[50px]'>
                 <Maintanceflow2 />
             </div>
-
+            <Container>
+                <Overview />
+            </Container>
             {/* new  import*/}
 
-
+            <Footer />
         </div>
     )
 }
