@@ -12,7 +12,7 @@ const AnchorTag = ({ href, children, variant = '' }) => {
       anchorStyle = "leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold";
       break;
     case "footer":
-      anchorStyle = "text-[13px] cursor-pointer text-[#747474] hover:text-[#ff6a28] font-normal"
+      anchorStyle = "text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma"
       break;
     case "img":
       anchorStyle = "text-[24px]  text-white font-[600]  leading-[1em] cursor-pointer"
