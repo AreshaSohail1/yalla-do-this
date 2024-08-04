@@ -5,7 +5,7 @@ import AnchorTag from '../atoms/Anchortag'
 function Overview() {
     return (
         <div>
-            <div className='grid grid-cols-2 gap-9'>
+            <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 sm:grid-cols-1 gap-9'>
                 <AnchorTag href=''>
                     <ServicesMoli src='/assits/images/plumber/paint.jpg' headeing='Paint Works' para={'Have a Business Plan for Your Plumbing Company Successful plumbers'} />
                 </AnchorTag>

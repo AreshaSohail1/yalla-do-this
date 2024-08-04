@@ -9,8 +9,8 @@ function Header() {
             <div className=''>
                 <ul className='flex  gap-[50px] '>
                     <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/'>About</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/services'>Services  <IoIosArrowDown /></AnchorTag>                    
+                    <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
+                    <li> <AnchorTag variant='Header' href='/services'>Services  <IoIosArrowDown /></AnchorTag>
                     </li>
                     <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
                 </ul>
