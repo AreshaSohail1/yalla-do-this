@@ -16,7 +16,7 @@ export default function Banner() {
             <Heading level="1">The temperature <br /> of cooling is in <br /> your hand.</Heading>
             <Heading level="4">Providing best-in-class air conditioning services <br /> to make your home cooler, more energy-efficient, <br /> and optimized for your comfort</Heading>
           </div>
-          <div className="bg-[#f35748] hover:bg-[#45a6af] w-[17%]  p-[20px] ">
+          <div className="bg-[#f35748] hover:bg-[#45a6af] w-[17%] pl-[35px] py-[20px] ">
             <button className='flex items-center text-white text-[18px]  font-[600] '>Discover More  <MdArrowOutward /></button>
           </div>
         </div>

@@ -9,6 +9,7 @@ function Header() {
             <div className=''>
                 <ul className='flex  gap-[50px] '>
                     <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
+<<<<<<< HEAD
                     <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
                     <li> <AnchorTag variant='Header' href='/services'>Services  <IoIosArrowDown /></AnchorTag>
                         <ul className='dropdown  absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[80px] pl-[30px]'>
@@ -24,6 +25,11 @@ function Header() {
 
                     </li>
 
+=======
+                    <li> <AnchorTag variant='Header' href='/'>About</AnchorTag></li>
+                    <li> <AnchorTag variant='Header' href='/servie'>Services </AnchorTag>
+                    </li>
+>>>>>>> b5bcfb814b951e1d29ed6eb9000763751caa2d2f
                     <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
                 </ul>
             </div>
