@@ -21,6 +21,8 @@ const Span = ({ level, children }) => {
                 return "text-[20px] font-[500] text-white  ";
             case "contact":
                 return "text-[14px] font-[400] text-black  ";
+            case "flow":
+                return "text-[40px] font-[400] text-[#f35748]  ";
             default:
                 return "text-lg"
         }
