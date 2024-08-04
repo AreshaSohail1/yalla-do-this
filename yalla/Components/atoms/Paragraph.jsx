@@ -8,8 +8,11 @@ const Paragraph = ({children, variant = '' }) => {
     case "banner":
       paragraphStyle = " text-black text-[17px] font-[600] tracking-[1px] ";
       break;
+      case "homepara":
+      paragraphStyle = " cursor-pointer  leading-[25px] text-[#8b8a8a] text-[17px] font-medium ";
+      break;
       case "imgs":
-        paragraphStyle = "cursor-pointer pt-[2%] leading-[25px] text-black text-[14px] font-semibold";
+        paragraphStyle = "cursor-pointer pt-[2%] leading-[25px] text-[#8b8a8a] text-[14px] font-semibold";
       break;
       case "offer":
         paragraphStyle = " leading-[25px]  text-[16px] font-[400] mt-[20px]";
@@ -20,10 +23,26 @@ const Paragraph = ({children, variant = '' }) => {
       case "contact":
         paragraphStyle = " leading-[25px] text-black pt-[2%] text-[14px] font-[500] tracking-wide ";
       break;
+      case "HandyPara":
+        paragraphStyle = " text-[#fff] font-light text-[18px] leading-7";
+      break;
+        
+    case "tempara":
+      paragraphStyle = " text-[#091736] text-[15px] font-[600] tracking-[1px] ";
+      break;
+      case "temperature":
+        paragraphStyle = " leading-[25px] text-[#979FAE]  text-[16px] font-[500] tracking-wide ";
+        break;
+
+        case "Relaxpara":
+          paragraphStyle = " leading-[25px] text-[#ffffff]  text-[16px] font-[500]  ";
+          break;
+  
       
       case "contact2":
         paragraphStyle = " text-600-gray  px-[40px] text-[14px] font-[500] ";
       break;
+
         
     default:
       paragraphStyle = "";

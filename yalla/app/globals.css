@@ -48,3 +48,34 @@ li:hover .dropdown2 {
     background-repeat:no-repeat ;
     background-size: cover;
 }
+.maintances-bg {
+    background-image: url('../public/assits/images/couple-turning'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; 
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+    z-index: 0;
+    position: relative;
+    height: 600px;
+}
+
+.content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.temp-bg {
+    background-image: url('../public/assits/images/woman-sitting.jpg'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6; 
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+    z-index: 0;
+    position: relative;
+    height: 500px;
+}

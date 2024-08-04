@@ -1,24 +1,64 @@
 import React from 'react'
-import Container from '../atoms/Container'
 import Paragraph from '../atoms/Paragraph'
-import Span from '../atoms/Span'
+import Heading from '../atoms/Heading'
+import { FaCheck } from "react-icons/fa";
+
 
 function Section() {
-  return (
-   <div className='pt-[5%]'>
-        <div className='bg-[#EEEDEB] pt-[5%] h-[500px]'>
-        <Container>
-            <div className='flex'>
-                <img src="/assits/images/pic8.jpg" alt="" />
-                <div className='bg-white'>
-                    <Span level='servics'>over services plan</Span>
-                    <Paragraph>We really believe that your house needs the best attention and care possible. We handle every part of your living space with our wide selection of services, which include both necessities and extravagance. From the extreme heat to the little pleasures, our air conditioning services provide a wonderful, comfortable environment all year round. Do you need an overhaul or a fast repair? Our skilled plumbers and handymen are here to assist, ready to find and fix any issues to ensure your house is operating correctly.</Paragraph>
+    return (
+        <div className=''>
+            <div className=' px-[6%] py-[10%]  h-[700px]'>
+
+                <div className='flex gap-[8%] '>
+                    <img className='rounded-md h-[450px] w-[45%] ' src="/assits/images/pic8.jpg" alt="" />
+                    <div className=' '>
+                        <div className="">
+                            <p>Who we are</p>
+                            <div className="py-[20px] ">
+                                <Heading level="2">Our job is to provide you <br /> with innovation.</Heading>
+                            </div>
+                            <div className="pb-[10px] ">
+                                <Paragraph variant='homepara'>Nullam volutpat felis finibus id in. Integer velit neque at fringilla cursus <br /> hac purus blandit phasellus dictumst sed. Sed cubilia eu at congue <br /> parturient urna.</Paragraph>
+                            </div>
+                        </div>
+                        <div className="py-[20px] flex flex-wrap ">
+                            <div className="flex gap-2 pr-[50px] pt-[10px] items-center">
+                                <div className=" bg-[#45a6af] text-white text-[10px] h-[10px] w-0 pl-[5px] pr-[15px] pt-[5px] pb-[15px] rounded-xl">
+                                    <FaCheck />
+                                </div>
+                                <Paragraph variant='homepara'>Exceed your expectations</Paragraph>
+                            </div>
+                            <div className="flex gap-2 pr-[50px] pt-[10px] items-center">
+                                <div className=" bg-[#45a6af] text-white text-[10px] h-[10px] w-0 pl-[5px] pr-[15px] pt-[5px] pb-[15px] rounded-xl">
+                                    <FaCheck />
+                                </div>
+                                <Paragraph variant='homepara'>Professional Expert</Paragraph>
+                            </div>
+                            <div className="flex gap-2 pr-[50px] pt-[10px] items-center">
+                                <div className=" bg-[#45a6af] text-white text-[10px] h-[10px] w-0 pl-[5px] pr-[15px] pt-[5px] pb-[15px] rounded-xl">
+                                    <FaCheck />
+                                </div>
+                                <Paragraph variant='homepara'>Deliver 100% satisfaction</Paragraph>
+                            </div>
+                            <div className="flex gap-2 pr-[50px] pt-[10px] items-center">
+                                <div className=" bg-[#45a6af] text-white text-[10px] h-[10px] w-0 pl-[5px] pr-[15px] pt-[5px] pb-[15px] rounded-xl">
+                                    <FaCheck />
+                                </div>
+                                <Paragraph variant='homepara'>Premium support 24/7</Paragraph>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md w-[30%] mt-[25px]  py-[13px] px-[35px] ">
+                            <button className='flex items-center text-white text-[14px]  font-[600] '>Discover More </button>
+                        </div>
+                    </div>
                 </div>
+
+
+
             </div>
-        </Container>
-    </div>
-   </div>
-  )
+        </div>
+    )
 }
 
 export default Section

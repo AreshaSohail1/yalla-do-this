@@ -6,14 +6,14 @@ import Acbanner from '../moleculus/Acbanner'
 function AcAll() {
   return (
     <div>
-        
-            <div>
-                <Acbanner content={'AC Services'}
-                 paragraph={'It provides ac repair services in the range of split air conditioner  window air conditioner central air conditioners andother power cooling systems'}
-                 button={'Quick Quote'}
-                 />
-                 </div>
-    
+
+      <div>
+        <Acbanner content={'AC Services'}
+          paragraph={'It provides ac repair services in the range of split air conditioner  window air conditioner central air conditioners andother power cooling systems'}
+          button={'Quick Quote'}
+        />
+      </div>
+
     </div>
   )
 }
