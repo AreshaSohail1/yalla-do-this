@@ -130,21 +130,7 @@ function Header() {
       </div>
     </div>
   );
-  // =======
-  return (
-    <div>
-      <div className=''>
-        <ul className='flex  gap-[50px] '>
-          <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
-          <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
-          <li> <AnchorTag variant='Header' href='/servie'>Services  <IoIosArrowDown /></AnchorTag>
-          </li>
-          <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
-        </ul>
-      </div>
-    </div>
-  )
-  // >>>>>>> ebb2645af6fad02b19d049b9f8d5a6641a2aab7c
+
 }
 
 export default Header;
