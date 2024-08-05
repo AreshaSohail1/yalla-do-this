@@ -22,6 +22,7 @@ const PaintingPortion = () => {
         </h2>
       </div>
       <Container>
+
         <HeroSection
           children1="Our company, the Dubai Painting Services aims at offering excellent house painting services in the UAE. You can be assured of our efficient team to transform your house into an artistic masterpiece as you seek painting services. Whether you want a few rooms painted inside your home, or you need a complete makeover of the outside of your home, we can help."
           src="/assits/images/herimage.jpg"
