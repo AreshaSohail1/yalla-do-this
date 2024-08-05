@@ -11,7 +11,7 @@ import Work from '@/Components/moleculus/Work'
 
 function home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Headermain />
       <Banner />
       <Section />

@@ -7,11 +7,11 @@ import { FaCheck } from "react-icons/fa";
 function Section() {
     return (
         <div className=''>
-            <div className=' px-[6%] py-[10%]  h-[700px]'>
+            <div className=' px-[6%] py-[10%] '>
 
-                <div className='flex gap-[8%] '>
-                    <img className='rounded-md h-[450px] w-[45%] ' src="/assits/images/pic8.jpg" alt="" />
-                    <div className=' '>
+                <div className=' gap-[8%] xl:flex xl:flex-row xl:items-center xl:justify-center lg:flex lg:flex-row lg:items-center lg:justify-center md:flex md:flex-col md:items-center md:justify-center sm:flex sm:flex-col sm:items-center sm:justify-center flex flex-col items-center justify-center'>
+                    <img className='rounded-md h-[450px] xl:w-[45%] lg:w-[45%]  md:w-[100%]  sm:w-[100%]  w-[100%] ' src="/assits/images/pic8.jpg" alt="" />
+                    <div className='left xl:my-0 lg:my-0 md:my-6 sm:my-6 my-8 '>
                         <div className="">
                             <p>Who we are</p>
                             <div className="py-[20px] ">
@@ -48,7 +48,7 @@ function Section() {
                             </div>
                         </div>
                         <hr />
-                        <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md w-[30%] mt-[25px]  py-[13px] px-[35px] ">
+                        <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[13px] px-[35px] xl:w-[30%] lg:w-[35%] md:w-[30%] sm:w-[27%] w-[43%] ">
                             <button className='flex items-center text-white text-[14px]  font-[600] '>Discover More </button>
                         </div>
                     </div>

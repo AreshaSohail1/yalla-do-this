@@ -12,14 +12,14 @@ function Relaxation() {
         <div>
 
             <Container>
-                <div className='gap-[50px] flex pt-[20%] pb-[10%]  '>
-                    <div className=' grid w-[70%] gap-[10px]'>
+                <div className='gap-[50px] pt-[20%] pb-[10%] xl:flex xl:flex-nowrap xl:mt-0 lg:flex lg:flex-nowrap lg:mt-[250px] md:flex md:flex-wrap md:mt-[250px] sm:flex sm:flex-wrap sm:mt-[700px] flex flex-wrap mt-[700px]'>
+                    <div className=' grid  gap-[10px] xl:w-[35%] lg:w-[35%] md:w-[100%] sm:w-[100%] w-[100%]'>
                         <Paragraph variant='tempara'>Why choose us</Paragraph>
-                        <Heading level='7'>Relaxation and <br /> your satisfaction.</Heading>
+                        <Heading level='7' className="text-5xl">Relaxation and <br /> your satisfaction.</Heading>
                         <Paragraph variant='temperature'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  ullamcorper mattis, pulvinar dapibus <br />leo.</Paragraph>
                     </div>
                     <div className='flex '>
-                        <div className='flex-wrap flex gap-[15px]'>
+                        <div className=' gap-[15px] items-center justify-center xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 grid grid-cols-1'>
                             <div className=' shadow-lg bg-[#4ab7c3] flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px]' >
                                 <div className='text-[42px] text-[#091736]'>
                                     <LuCrown />

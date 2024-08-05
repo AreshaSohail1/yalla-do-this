@@ -19,15 +19,15 @@ function Footer() {
                 <div className='mt-[50px]'>
 
                     <hr />
-                    <div className=' pt-[5%] xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 sm:grid sm:mt-5 sm:grid-cols-1 grid grid-cols-1   '>
+                    <div className=' pt-[5%] xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 sm:grid sm:mt-5 sm:grid-cols-1 grid grid-cols-1   '>
 
                         <div>
-                            <div className='relative gap-[10px] bottom-[20px] flex flex-col items-center justify-center mt-6'>
+                            <div className='relative gap-[10px] bottom-[20px] flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-1 order-1'>
                                 <img src="/assits/images/logo1.png" alt="" className='xl:w-[90px] lg:w-[130px] md:w-[150px] sm:w-[50%] w-[50%]' />
                                 <Span level="footer">Cempaka Wangi No 22</Span>
                                 <Span level="footer">Dubai</Span>
                             </div>
-                            <div className='grid gap-[10px] flex flex-col items-center justify-center mt-6'>
+                            <div className='grid gap-[10px] flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
                                 <div className='flex gap-[15px] '>
                                     <FaRegEnvelope className='text-[#F97300] ' />
                                     <Span level='footer'>waqaswqspk@gmail.com</Span>
@@ -38,7 +38,7 @@ function Footer() {
                                 </div>
                             </div>
                             <div>
-                                <div className='xl:flex  gap-[20px] my-[12%] text-[#F97300] text-[18px] sm:flex sm:items-center sm:justify-center flex items-center justify-center  '>
+                                <div className='xl:flex  gap-[20px] my-[12%] text-[#F97300] text-[18px]  sm:flex sm:items-center sm:justify-center  flex items-center justify-center  '>
                                     <FaFacebookF className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                     <FaInstagram className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                     <FaTwitter className=' hover:text-[#4ab7c3] ease-in duration-300' />
@@ -47,7 +47,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center mt-6'>
+                        <div className='flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-4 order-4'>
                             <Heading level="4">Company</Heading>
                             <div className='grid  gap-[10px] mt-[20px] '>
                                 <AnchorTag variant='footer'>About us</AnchorTag>
@@ -58,7 +58,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='flex flex-col mt-6 items-center justify-center'>
+                        <div className='flex flex-col mt-6 items-center justify-center xl:order-none lg:order-none md:order-none sm:order-5 order-5'>
                             <Heading level="4">Support</Heading>
                             <div className='grid gap-[10px] mt-[20px] '>
                                 <AnchorTag variant='footer'>Contact Us</AnchorTag>
@@ -67,7 +67,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center my-6  '>
+                        <div className='flex flex-col items-center justify-center my-6 xl:order-none lg:order-none md:order-none sm:order-2 order-2 '>
                             <Heading level="4">Newsletter</Heading>
                             <div className="mt-[20px] grid gap-[10px] ">
                                 <Span level='footer'>Signup our newsletter to get update information, news, insight or promotions.</Span>
