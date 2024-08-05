@@ -6,7 +6,7 @@ import { RxCross1 } from "react-icons/rx";
 import { IoMdMenu } from "react-icons/io";
 
 function Header() {
-// <<<<<<< HEAD
+  // <<<<<<< HEAD
   const open = function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("mySidenav").style.display = "block"
@@ -48,6 +48,7 @@ function Header() {
             {" "}
             <AnchorTag variant="Header" href="/service">
               Services <IoIosArrowDown />
+
             </AnchorTag>
           </li>
           <li>
@@ -60,7 +61,7 @@ function Header() {
 
         <span
           id="open"
-          className="cursor-pointer shadow-2xl xl:hidden lg:hidden md:hidden  sm:block block "
+          className="block shadow-2xl cursor-pointer xl:hidden lg:hidden md:hidden sm:block "
         >
           <button onClick={open} >
             <IoMdMenu fontSize={30} />
@@ -107,21 +108,21 @@ function Header() {
       </div>
     </div>
   );
-// =======
-    return (
-        <div>
-            <div className=''>
-                <ul className='flex  gap-[50px] '>
-                    <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/servie'>Services  <IoIosArrowDown /></AnchorTag>
-                    </li>
-                    <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
-                </ul>
-            </div>
-        </div>
-    )
-// >>>>>>> ebb2645af6fad02b19d049b9f8d5a6641a2aab7c
+  // =======
+  return (
+    <div>
+      <div className=''>
+        <ul className='flex  gap-[50px] '>
+          <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
+          <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
+          <li> <AnchorTag variant='Header' href='/servie'>Services  <IoIosArrowDown /></AnchorTag>
+          </li>
+          <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
+        </ul>
+      </div>
+    </div>
+  )
+  // >>>>>>> ebb2645af6fad02b19d049b9f8d5a6641a2aab7c
 }
 
 export default Header;
