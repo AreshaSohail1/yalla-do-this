@@ -6,7 +6,6 @@ import { RxCross1 } from "react-icons/rx";
 import { IoMdMenu } from "react-icons/io";
 
 function Header() {
-<<<<<<< HEAD
   const open = function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("mySidenav").style.display = "block"
@@ -46,7 +45,7 @@ function Header() {
           </li>
           <li>
             {" "}
-            <AnchorTag variant="Header" href="/services">
+            <AnchorTag variant="Header" href="/service">
               Services <IoIosArrowDown />
             </AnchorTag>
           </li>
@@ -59,7 +58,7 @@ function Header() {
         </ul>
 
         <span
-        id="open"
+          id="open"
           className="cursor-pointer shadow-2xl xl:hidden lg:hidden md:hidden  sm:block block "
         >
           <button onClick={open} >
@@ -73,10 +72,10 @@ function Header() {
       >
         <button onClick={close} className="hover:rotate-[180] transition 0.5s ">
           <a href="javascript:void(0)" class="closebtn">
-            <RxCross1 className=" text-black text-[30px]"/>
+            <RxCross1 className=" text-black text-[30px]" />
           </a>
         </button>
-        
+
 
         <ul className="flex flex-col items-center justify-center">
           <li>
@@ -107,21 +106,6 @@ function Header() {
       </div>
     </div>
   );
-=======
-    return (
-        <div>
-            <div className=''>
-                <ul className='flex  gap-[50px] '>
-                    <li> <AnchorTag variant='Header' href='/'>Home</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/about'>About</AnchorTag></li>
-                    <li> <AnchorTag variant='Header' href='/servie'>Services  <IoIosArrowDown /></AnchorTag>
-                    </li>
-                    <li> <AnchorTag variant='Header' href='/contactus'>Contact</AnchorTag></li>
-                </ul>
-            </div>
-        </div>
-    )
->>>>>>> ebb2645af6fad02b19d049b9f8d5a6641a2aab7c
 }
 
 export default Header;
