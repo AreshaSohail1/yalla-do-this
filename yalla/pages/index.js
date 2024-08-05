@@ -3,8 +3,8 @@ import Home from './home'
 function index() {
   return (
     <div>
-        <Home/>
-        
+      <Home />
+
     </div>
   )
 }
