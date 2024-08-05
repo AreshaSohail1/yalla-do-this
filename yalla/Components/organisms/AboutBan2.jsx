@@ -6,7 +6,7 @@ import Container from '../atoms/Container'
 function AboutBan2() {
     return (
         <Container>
-            <div className='flex justify-evenly my-[70px]'>
+            <div className='grid xl:grid-cols-2 lg:grid-cols-1 grid-cols-1 justify-evenly my-[70px]'>
                 <AboutImage />
                 <AboutText />
             </div>

@@ -7,6 +7,7 @@ import Maintanceflow2 from '../moleculus/Maintanceflow2'
 import Overview from './Overview'
 import Container from '../atoms/Container'
 import Footer from './Footer'
+import Worker from '../moleculus/Worker'
 function About() {
     return (
         <div>
@@ -20,6 +21,7 @@ function About() {
                 <Overview />
             </Container>
             {/* new  import*/}
+            <Worker />
 
             <Footer />
         </div>

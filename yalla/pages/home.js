@@ -1,3 +1,4 @@
+"use client"
 import Banner from '@/Components/organisms/Banner'
 import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
@@ -11,7 +12,7 @@ import Work from '@/Components/moleculus/Work'
 
 function home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Headermain />
       <Banner />
       <Section />

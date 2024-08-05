@@ -7,6 +7,7 @@ import PlumbingOffer from '../organisms/PlumbingOffer'
 import PlumberResponse from '../organisms/PlumberResponse'
 import Customers from '../organisms/Customers'
 import PlumberContact from '../organisms/PlumberContact'
+import Footer from '../organisms/Footer'
 
 const PlumbingTemp = () => {
     return (
@@ -18,6 +19,8 @@ const PlumbingTemp = () => {
             <PlumberResponse />
             <Customers />
             <PlumberContact />
+            <Footer />
+
         </div>
     )
 }

@@ -9,7 +9,7 @@ function Maintanceflow2() {
     return (
         <Container>
             <div className='my-[100px]'>
-                <div className="z-50  opacity-100 grid grid-cols-4 overflow-hidden py-[50px]  rounded-md shadow-2xl  px-[40px]  mx-auto  bg-white">
+                <div className="z-50  opacity-100 grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 overflow-hidden py-[50px]  rounded-md shadow-2xl  px-[40px]  mx-auto  bg-white">
                     <div className="  py-[15px] text-center ">
                         <Counter3 targetCount={300} startCount={0} contant={"Happy Customer"} />
                     </div>
