@@ -13,7 +13,7 @@ const Cellingbanner = ({ content, button, paragraph }) => {
       setTimeout(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFade(true);
-      },200)
+      })
 
 
 
@@ -24,10 +24,10 @@ const Cellingbanner = ({ content, button, paragraph }) => {
         style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
       >
         {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
-        <div className="relative w-[50%] z-10 text-white pt-[10%] px-[8%] p-8">
-          <div className="text-[#1e73be] uppercase text-[50px] font-bold mb-5">{content}</div>
-          <div className="text-[18px] font-[300] leading-[30px]    ">{paragraph}</div>
-          <div className="mt-[6%] bg-[#164b8d] text-[24px]  cursor-pointer hover:bg-[#F97300] text-center ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px]">{button}</div>
+        <div className="relative flex flex-col  justify-center xl:items-start lg:items-start md:items-start sm:items-center items-center   z-10 text-white pt-[10%] px-[8%] p-8 xl:w-[50%] xl:text-start lg:w-[55%] lg:text-start md:w-[57%] md:mt-8 md:text-start sm:w-[100%] sm:mt-[150px] sm:text-center w-[100%] mt-[160px] text-center">
+          <div className="text-[#1e73be] uppercase  font-bold mb-5 xl:text-[50px] lg:text-[50px] md:text-[47px] sm:text-[45px] text-[40px]">{content}</div>
+          <div className=" font-[300]   xl:text-[18px] xl:leading-[30px] lg:text-[18px] lg:leading-[30px] md:text-[14px] md:leading-[20px] sm:text-[14px] sm:leading-[25px] text-[15px] leading-[20px]  ">{paragraph}</div>
+          <div className="mt-[6%] bg-[#164b8d]   cursor-pointer hover:bg-[#F97300] text-center ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px] xl:text-[24px] xl: w-[43%] lg:text-[20px] lg: w-[43%] md:text-[20px] md:w-[63%] sm:text-[17px] sm:w-[53%] text-[15px]  w-[53%]">{button}</div>
         </div>
       </div>
     </div>
