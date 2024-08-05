@@ -1,3 +1,4 @@
+"use client"
 import Banner from '@/Components/organisms/Banner'
 import Headermain from '@/Components/organisms/Headermain'
 import React from 'react'
