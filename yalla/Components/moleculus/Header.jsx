@@ -48,6 +48,7 @@ function Header() {
             {" "}
             <AnchorTag variant="Header" href="/service">
               Services <IoIosArrowDown />
+
             </AnchorTag>
             <ul className='dropdown  absolute bg-white opacity-5 z-[9999] invisible py-[10px] pr-[50px] pl-[30px]'>
               <li><AnchorTag variant='Headerh' href='/acservice'> AC Services</AnchorTag></li>
@@ -71,7 +72,7 @@ function Header() {
 
         <span
           id="open"
-          className="cursor-pointer shadow-2xl xl:hidden lg:hidden md:hidden  sm:block block "
+          className="block shadow-2xl cursor-pointer xl:hidden lg:hidden md:hidden sm:block "
         >
           <button onClick={open} >
             <IoMdMenu fontSize={30} />
