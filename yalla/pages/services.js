@@ -4,7 +4,7 @@ import ServicesAll from '@/Components/organisms/ServicesAll'
 import Footer from '@/Components/organisms/Footer'
 import React from 'react'
 
-function Services() {
+function service() {
   return (
     <div>
         <ServicesAll/>
@@ -17,4 +17,4 @@ function Services() {
   )
 }
 
-export default Services
+export default service
