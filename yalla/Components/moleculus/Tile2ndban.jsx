@@ -6,11 +6,11 @@ function Tile2ndban() {
   return (
 
     <Container>
-    <div className='my-[60px] flex justify-between'>
-    <div className="w-[48%] shadow-slate-500 mt-[70px]">
+    <div className='my-[60px]  xl:flex xl:flex-nowrap xl:items-center xl:justify-between lg:flex lg:flex-nowrap lg:items-center lg:justify-between  md:flex md:flex-wrap md:items-center md:justify-center  sm:flex sm:flex-wrap sm:items-center sm:justify-center flex flex-wrap items-center justify-center '>
+    <div className=" shadow-slate-500 mt-[70px] xl:w-[48%] xl:order-none  lg:w-[48%] lg:order-none  md:w-[100%] md:order-2 sm:w-[100%]  sm:order-2 w-[100%] order-2">
         <img src="/assits/images/Tail2.jpeg" alt=""  width='100%' height='100%'/>
     </div>
-    <div className=' w-[48%]  flex flex-col gap-[20px]'>
+    <div className='  flex flex-col gap-[20px] xl:w-[48%] xl:order-none lg:w-[48%] lg:order-none  md:w-[100%] md:my-[50px] md:order-1 sm:w-[100%] sm:my-[50px] sm:order-1 w-[100%] my-[50px] order-1'>
        <h1 className='text-[34px] font-semibold leading-[41px] text-[black]'>
        Rely On Us For Tile Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!</h1>
        <p className='text-[18px] font-400 leading-[35px] text-[black]'>

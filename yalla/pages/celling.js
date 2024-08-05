@@ -5,7 +5,7 @@ import React from 'react'
 
 function celling() {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Headermain/>
         <Cellingmain/>
         <Footer/>

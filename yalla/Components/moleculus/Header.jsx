@@ -6,10 +6,7 @@ import { RxCross1 } from "react-icons/rx";
 import { IoMdMenu } from "react-icons/io";
 
 function Header() {
-<<<<<<< HEAD
 // <<<<<<< HEAD
-=======
->>>>>>> d95c0bdef52ac9424b91d787aaf696d5dfc55912
   const open = function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("mySidenav").style.display = "block"
@@ -110,7 +107,6 @@ function Header() {
       </div>
     </div>
   );
-<<<<<<< HEAD
 // =======
     return (
         <div>
@@ -126,8 +122,6 @@ function Header() {
         </div>
     )
 // >>>>>>> ebb2645af6fad02b19d049b9f8d5a6641a2aab7c
-=======
->>>>>>> d95c0bdef52ac9424b91d787aaf696d5dfc55912
 }
 
 export default Header;
