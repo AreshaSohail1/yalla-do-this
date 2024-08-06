@@ -17,7 +17,7 @@ function Header() {
 
   const close = function closeNav() {
     document.getElementById("mySidenav").style.width = "0px";
-    document.getElementById("mySidenav").style.display = "hidden"
+    document.getElementById("mySidenav").style.display = "none"
     document.getElementById("open").style.opacity = "100%"
     document.getElementById("mySidenav").style.right = "-250px"
 
