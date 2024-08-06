@@ -17,7 +17,7 @@ function Header() {
 
   const close = function closeNav() {
     document.getElementById("mySidenav").style.width = "0px";
-    document.getElementById("mySidenav").style.display = "hidden"
+    document.getElementById("mySidenav").style.display = "none"
     document.getElementById("open").style.opacity = "100%"
     document.getElementById("mySidenav").style.right = "-250px"
 
@@ -78,9 +78,11 @@ function Header() {
           </button>
         </span>
       </div>
+
+      
       <div
         id="mySidenav"
-        className="sidenav hidden absolute right-[-250px] h-[100vh] transition 0.5s ease-in bg-white z-[100000]"
+        className="sidenav none absolute right-[-250px] h-[100vh] transition 0.5s ease-in bg-white z-[100000]"
       >
         <button onClick={close} className="hover:rotate-[180] transition 0.5s ">
           <a href="javascript:void(0)" class="closebtn">
