@@ -10,13 +10,13 @@ function MaintainceService() {
                     <p className="text-white w-full ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br /> ullamcorper mattis, pulvinar dapibus leo.
                     </p>
-                    <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[15px] px-[40px] xl:w-[35%] lg:w-[35%] md:w-[40%] sm:w-[60%] w-[80%] ">
+                    <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[15px] items-center flex justify-center xl:w-[35%] lg:w-[35%] md:w-[40%] sm:w-[60%] w-[80%] ">
                         <button className='flex items-center  text-white text-[16px]  font-[600] '>Claim promo !</button>
                     </div>
                 </div>
 
             </div>
-            <Maintanceflow/>
+            <Maintanceflow />
         </div>
     );
 }
