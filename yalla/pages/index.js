@@ -4,7 +4,7 @@ function index() {
   return (
     <div>
       <Home />
-
+      {/* website are COMPLETED */}
     </div>
   )
 }
