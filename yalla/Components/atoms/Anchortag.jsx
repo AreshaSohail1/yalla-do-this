@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const AnchorTag = ({ href, children, variant = '' }) => {
+const AnchorTag = ({ href='#', children, variant = '' }) => {
   let anchorStyle = "";
 
   switch (variant) {
