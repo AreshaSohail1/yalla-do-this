@@ -18,7 +18,7 @@ function Section() {
                                 <Heading level="2">Our job is to provide you <br /> with innovation.</Heading>
                             </div>
                             <div className="pb-[10px] ">
-                                <Paragraph variant='homepara'>Nullam volutpat felis finibus id in. Integer velit neque at fringilla cursus <br /> hac purus blandit phasellus dictumst sed. Sed cubilia eu at congue <br /> parturient urna.</Paragraph>
+                                <Paragraph variant='homepara'>Revitalize your home with our expert renovation services, including stylish updates and functional improvements. Transform your bathroom into a modern retreat with sleek fixtures and smart technology. From concept to completion, we deliver high-quality craftsmanship, ensuring your space is both beautiful and functional. Elevate your living experience today</Paragraph>
                             </div>
                         </div>
                         <div className="py-[20px] flex flex-wrap ">
@@ -48,8 +48,8 @@ function Section() {
                             </div>
                         </div>
                         <hr />
-                        <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[13px] px-[35px] xl:w-[30%] lg:w-[35%] md:w-[30%] sm:w-[27%] w-[43%] ">
-                            <button className='flex items-center text-white text-[14px]  font-[600] '>Discover More </button>
+                        <div className="bg-[#387F39] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[13px] px-[35px] xl:w-[30%] lg:w-[35%] md:w-[30%] sm:w-[27%] w-[43%] ">
+                            <button className='flex items-center text-white text-[14px]  font-[600] '>Contact Us</button>
                         </div>
                     </div>
                 </div>

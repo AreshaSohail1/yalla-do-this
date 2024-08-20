@@ -29,7 +29,8 @@ function Relaxation() {
                                         Exceed your expectations
 
                                     </div>
-                                    <Paragraph variant='Relaxpara'> Lacus netus arcu gravida feugiat si<br /> porttitor consectetuer penatibus <br />augue.</Paragraph>
+                                    <Paragraph variant='Relaxpara'> We surpass your expectations with superior quality and exceptional craftsmanship.
+                                    </Paragraph>
                                 </div>
                             </div>
                             <div className='bg-[#ffffff]  shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px]'>
@@ -40,7 +41,7 @@ function Relaxation() {
                                     <div className='text-[22px]  text-[#091736] font-[700] leading-[1em] py-[5px]'>
                                         Deliver 100% satisfaction
                                     </div>
-                                    <Paragraph variant='temperature'>Lacus netus arcu gravida feugiat si<br /> porttitor consectetuer penatibus <br />augue.</Paragraph>
+                                    <Paragraph variant='temperature'>We deliver 100% satisfaction through exceptional quality and dedicated service.</Paragraph>
                                 </div>
                             </div>
                             <div className='bg-[#ffffff] shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px]'>
@@ -51,7 +52,7 @@ function Relaxation() {
                                     <div className='text-[22px]  text-[#091736] font-[700] leading-[1em] py-[5px]'>
                                         Professional Expert
                                     </div>
-                                    <Paragraph variant='temperature'>Lacus netus arcu gravida feugiat si<br /> porttitor consectetuer penatibus <br />augue.</Paragraph>
+                                    <Paragraph variant='temperature'>Skilled professionals provide expert solutions with precision, knowledge, and reliability.</Paragraph>
                                 </div>
                             </div>
                             <div className='bg-[#ffffff]  shadow-lg flex h-[135px] w-[370px] rounded gap-[20px] py-[15px] pl-[12px]'>
@@ -63,7 +64,7 @@ function Relaxation() {
 
                                         Premium support 24/7
                                     </div>
-                                    <Paragraph variant='temperature'>Lacus netus arcu gravida feugiat si<br /> porttitor consectetuer penatibus <br />augue.</Paragraph>
+                                    <Paragraph variant='temperature'>We offer premium support 24/7 for uninterrupted, top-quality assistance.</Paragraph>
                                 </div>
                             </div>
                         </div>

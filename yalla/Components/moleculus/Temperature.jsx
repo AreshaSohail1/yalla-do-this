@@ -33,8 +33,9 @@ function Temperature() {
                                     <FaFan />
                                 </div>
                                 <div className='grid gap-[20px]'>
-                                    <Heading level='8'>AC installation</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>AC Services  </Heading>
+                                    <Paragraph variant='temperature'>AC services and duct cleaning improves air quality, efficiency, and system performance while reducing allergens and dust.
+                                    </Paragraph>
                                 </div>
                             </div>
 
@@ -45,8 +46,9 @@ function Temperature() {
                                 <BsTools />
                                 </div>
                                 <div className='grid gap-[20px]'>
-                                    <Heading level='8'>AC Repair</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>Home Renovation</Heading>
+                                    <Paragraph variant='temperature'>We handle home renovation, enhancing style, <br /> functionality, and property value.
+                                    </Paragraph>
                                 </div>
                             </div>
 
@@ -57,8 +59,9 @@ function Temperature() {
                                 <PiPipeLight />
                                 </div>
                                 <div className='flex flex-col items-center justify-center gap-[20px]'>
-                                    <Heading level='8'>Duct Cleaning</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>Modern Bathroom</Heading>
+                                    <Paragraph variant='temperature'>We transform outdated bathrooms into stylish, <br /> modern, and functional spaces.
+                                    </Paragraph>
                                 </div>
                             </div>
 
@@ -69,8 +72,8 @@ function Temperature() {
                                 <MdAutoAwesome />
                                 </div>
                                 <div className='grid gap-[20px]'>
-                                    <Heading level='8'>Duct Coating</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>Gypsum Works</Heading>
+                                    <Paragraph variant='temperature'>We install gypsum partitions and ceilings for stylish, functional interior spaces.</Paragraph>
                                 </div>
                             </div>
 
@@ -81,8 +84,9 @@ function Temperature() {
                                 <MdOutlineRoofing />
                                 </div>
                                 <div className='grid gap-[20px]'>
-                                    <Heading level='8'>Attic Insulation</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>Paint Works</Heading>
+                                    <Paragraph variant='temperature'>We apply Fenomastic and texture paints for vibrant, durable wall finishes.
+                                    </Paragraph>
                                 </div>
                             </div>
 
@@ -93,8 +97,9 @@ function Temperature() {
                                     <FaFan />
                                 </div>
                                 <div className='grid gap-[20px]'>
-                                    <Heading level='8'>Air_Quality</Heading>
-                                    <Paragraph variant='temperature'>Orci eget dolor si morbi blandit torguent<br />tristique mauris sit etiam consectetuer</Paragraph>
+                                    <Heading level='8'>Tile Fixing</Heading>
+                                    <Paragraph variant='temperature'>We specialize in precise tile fixing for smooth, <br /> long-lasting, and attractive surfaces.
+                                    </Paragraph>
                                 </div>
                             </div>
 

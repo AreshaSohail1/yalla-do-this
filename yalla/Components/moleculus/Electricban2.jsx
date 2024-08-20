@@ -14,11 +14,12 @@ function Electircban2() {
           <h1 className='text-[34px] font-semibold leading-[41px] text-[black]'>
             Rely On Us For Tile Fix Dubai: We Are Top Tile Fixing Contractors In Dubai!</h1>
           <p className='text-[18px] font-400 leading-[35px] text-[black]'>
-            As one of the top tile fixing contractors in Dubai, our team at Rely On Us is proud to offer our professional services to residents and businesses throughout the city. We have a team of experienced and qualified  who are available to help with any tile fixing needs you may have.
+          Our electrical services cover all aspects from installation to troubleshooting. We ensure safety, efficiency, and high-quality workmanship with each project. Our licensed electricians handle both residential and commercial jobs, offering reliable solutions, prompt service, and adherence to industry standards, all while maintaining a strong focus on customer satisfaction.
+
           </p>
-          <p className="text-[17px] font-400 leading-[35px] text-[black]">
+          {/* <p className="text-[17px] font-400 leading-[35px] text-[black]">
             Whether you need help with a small repair or a complete tile installation, we are here to help. We also offer a wide range of other services, including tile cleaning and tile restoration. No matter what your needs are, we are confident that we can provide you with the services you need.
-          </p>
+          </p> */}
         </div>
       </div>
     </Container>

@@ -9,6 +9,8 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
 import Paragraph from '../atoms/Paragraph'
 import { FaYoutube, FaInstagram } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 function Footer() {
 
@@ -24,37 +26,43 @@ function Footer() {
                         <div>
                             <div className='relative gap-[10px] bottom-[20px] flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-1 order-1'>
                                 <img src="/assits/images/logo1.png" alt="" className='xl:w-[90px] lg:w-[130px] md:w-[150px] sm:w-[50%] w-[50%]' />
-                                <Span level="footer">Cempaka Wangi No 22</Span>
-                                <Span level="footer">Dubai</Span>
+                                <Span level="footer">company name Waqas Fahad <br /> Technical Services. Al Qouz Dubai</Span>
+                                {/* <Span level="footer">Dubai</Span> */}
                             </div>
-                            <div className='grid gap-[10px] flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
+                            <div className='grid gap-[10px] flex flex-col items-center justify-center  xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
                                 <div className='flex gap-[15px] '>
                                     <FaRegEnvelope className='text-[#F97300] ' />
-                                    <Span level='footer'>waqaswqspk@gmail.com</Span>
+                                    <Span level='footer'><a href="mailto:waqaswqspk@gmail.com">waqaswqspk@gmail.com</a></Span>
                                 </div>
-                                <div className='flex gap-[15px]'>
+                                {/* <div className='flex gap-[15px]'>
                                     <FaMobileAlt className='text-[#F97300] ' />
-                                    <Span level='footer'>+971 0508786126</Span>
-                                </div>
+                                    <Span level='footer'><a href="tel:+971 0508786126">+971 0508786126</a></Span>
+                                </div> */}
                             </div>
                             <div>
-                                <div className='xl:flex  gap-[20px] my-[12%] text-[#F97300] text-[18px]  sm:flex sm:items-center sm:justify-center  flex items-center justify-center  '>
+                                <div className='xl:flex  gap-[20px] my-[3%] text-[#F97300] text-[18px]  sm:flex sm:items-center sm:justify-center  flex items-center justify-center  '>
                                     <FaFacebookF className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                     <FaInstagram className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                     <FaTwitter className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                     <FaYoutube className=' hover:text-[#4ab7c3] ease-in duration-300' />
                                 </div>
                             </div>
+                            <div className=' text-[#399918] py-[5%] flex justify-center '>
+                                <a href="tel:+971 0508786126">
+                                    <IoLogoWhatsapp className='text-[50px] ' />
+                                </a>
+                            </div>
                         </div>
 
                         <div className='flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-4 order-4'>
                             <Heading level="4">Company</Heading>
                             <div className='grid  gap-[10px] mt-[20px] '>
-                                <AnchorTag variant='footer'>About us</AnchorTag>
-                                <AnchorTag variant='footer'>Our team</AnchorTag>
-                                <AnchorTag variant='footer'>Careers</AnchorTag>
-                                <AnchorTag variant='footer'>News & Article</AnchorTag>
-                                <AnchorTag variant='footer'>Legal Notes</AnchorTag>
+                                <AnchorTag variant='footer'>AC Services</AnchorTag>
+                                <AnchorTag variant='footer'>Home Renovation</AnchorTag>
+                                <AnchorTag variant='footer'>Modern Bathroom</AnchorTag>
+                                <AnchorTag variant='footer'>Gypsum Works</AnchorTag>
+                                <AnchorTag variant='footer'>Paint Works</AnchorTag>
+                                <AnchorTag variant='footer'>Tile Fixing</AnchorTag>
                             </div>
                         </div>
 
