@@ -7,7 +7,7 @@ import Maintanceflow2 from '../moleculus/Maintanceflow2'
 import Overview from './Overview'
 import Container from '../atoms/Container'
 import Footer from './Footer'
-import Worker from '../moleculus/Worker'
+// import Worker from '../moleculus/Worker'
 function About() {
     return (
         <div>
@@ -15,13 +15,13 @@ function About() {
             <Aboutbanner />
             <AboutBan2 />
             <div className='mt-[50px]'>
-                <Maintanceflow2 />
+                {/* <Maintanceflow2 /> */}
             </div>
             <Container>
                 <Overview />
             </Container>
             {/* new  import*/}
-            <Worker />
+            {/* <Worker /> */}
 
             <Footer />
         </div>

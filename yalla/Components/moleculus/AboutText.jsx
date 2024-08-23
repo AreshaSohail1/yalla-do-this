@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutText() {
     return (
-        <div className='xl:w-[49%] lg:w-[100%] w-[100%] flex flex-col gap-[20px] justify-center items-center text-center'>
+        <div className=' flex flex-col gap-[20px] justify-center  '>
             <h2 className='font-bold text-[30px]'>WHY CHOOSE US</h2>
             <p className='text-[16px] text-[#636363] leading-[30px]'>Choose us for our unmatched expertise and commitment to excellence. Our skilled professionals deliver high-quality results, ensuring your project is completed on time and to your satisfaction. With personalized service, attention to detail, and 24/7 support, we exceed expectations and provide reliable solutions tailored to your needs.
             </p>

@@ -10,6 +10,7 @@ import { FaTwitter } from "react-icons/fa6";
 import Paragraph from '../atoms/Paragraph'
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import Link from 'next/link';
 
 
 function Footer() {
@@ -54,22 +55,24 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className='flex flex-col items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-4 order-4'>
+                        <div className='flex flex-col  pb-[20px] text-center items-center justify-center mt-6 xl:order-none lg:order-none md:order-none sm:order-4 order-4'>
                             <Heading level="4">Company</Heading>
                             <div className='grid  gap-[10px] mt-[20px] '>
-                                <AnchorTag variant='footer'>AC Services</AnchorTag>
-                                <AnchorTag variant='footer'>Home Renovation</AnchorTag>
-                                <AnchorTag variant='footer'>Modern Bathroom</AnchorTag>
-                                <AnchorTag variant='footer'>Gypsum Works</AnchorTag>
-                                <AnchorTag variant='footer'>Paint Works</AnchorTag>
-                                <AnchorTag variant='footer'>Tile Fixing</AnchorTag>
+                                <Link href='/acservice' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>AC Services</Link>
+                                <Link href='/tileservice' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma' >Tiles Fixing</Link>
+                                <Link href='/electricservice' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Electrician Services</Link>
+                                <Link href='/plumbing' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Handyman & Plumber</Link>
+                                <Link href='/bathroom' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Bathroom Services</Link>
+                                <Link href='/PaintingPortion' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Painting Services</Link>
+                                <Link href='/kitchen' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Kitchen Service</Link>
+                                <Link href='/celling' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Gypsum Ceiling</Link>
                             </div>
                         </div>
 
                         <div className='flex flex-col mt-6 items-center justify-center xl:order-none lg:order-none md:order-none sm:order-5 order-5'>
                             <Heading level="4">Support</Heading>
                             <div className='grid gap-[10px] mt-[20px] '>
-                                <AnchorTag variant='footer'>Contact Us</AnchorTag>
+                                <AnchorTag href='/contactus' variant='footer'>Contact Us</AnchorTag>
                                 <AnchorTag variant='footer'>Ticket Support</AnchorTag>
                                 <AnchorTag variant='footer'>FAQ</AnchorTag>
                             </div>

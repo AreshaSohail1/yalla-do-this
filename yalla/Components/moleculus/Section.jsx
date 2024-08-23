@@ -2,6 +2,7 @@ import React from 'react'
 import Paragraph from '../atoms/Paragraph'
 import Heading from '../atoms/Heading'
 import { FaCheck } from "react-icons/fa";
+import Link from 'next/link';
 
 
 function Section() {
@@ -49,7 +50,7 @@ function Section() {
                         </div>
                         <hr />
                         <div className="bg-[#387F39] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[13px] px-[35px] xl:w-[30%] lg:w-[35%] md:w-[30%] sm:w-[27%] w-[43%] ">
-                            <button className='flex items-center text-white text-[14px]  font-[600] '>Contact Us</button>
+                            <Link href='/contactus'  className='flex items-center text-white text-[14px]  font-[600] '>Contact Us</Link>
                         </div>
                     </div>
                 </div>

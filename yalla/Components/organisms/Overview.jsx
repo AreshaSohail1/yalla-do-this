@@ -20,7 +20,7 @@ function Overview() {
                 </AnchorTag>
             </div>
             <div className='flex justify-center items-center my-10'>
-                <AnchorTag href='/servie'>
+                <AnchorTag href='/service'>
                     <button className='bg-[#3787c3] py-[15px] px-[30px] font-[600] text-[18px] rounded-[5px] capitalize text-[#fff] hover:bg-[white] hover:text-[#3787c3] border-[1px] border-[#3787c3] transition 0.5s ease-in'>
                         Read more
                     </button>

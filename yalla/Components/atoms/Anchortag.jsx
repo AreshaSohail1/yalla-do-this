@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const AnchorTag = ({ href='#', children, variant = '' }) => {
+const AnchorTag = ({ href='#', children, variant = '' , onclick , onMouseEnter ,onMouseLeave }) => {
   let anchorStyle = "";
 
   switch (variant) {
@@ -32,13 +32,16 @@ const AnchorTag = ({ href='#', children, variant = '' }) => {
       case "danger":
       anchorStyle ="text-[22px] text-[#164b8d] cursor-pointer font-[500]";
       break;
+      case "acservicebtn":
+      anchorStyle ='mt-[6%] bg-[#164b8d] text-center text-[24px] w-[43%]  hover:bg-[#F97300] ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px] cursor-pointer';
+      break;
       
     default:
       anchorStyle = "";
   }
 
   return (
-    <a className={anchorStyle} href={href}>{children}</a>
+    <a className={anchorStyle} onMouseLeave={onMouseLeave} onMouseEnter={onMouseEnter} onClick={onclick} href={href}>{children}</a>
   );
 };
 

@@ -7,13 +7,9 @@ import Servicenow from '../moleculus/Servicenow'
 function Acservicemain() {
   return (
     <div>
-        
-            <div>
-                {/* <Acbanner/> */}
-                <AcAll/>
-                  
-                    <Servicenow/>
-            </div>
+      {/* <Acbanner/> */}
+      <AcAll />
+      <Servicenow />
     </div>
   )
 }
