@@ -1,6 +1,7 @@
 import React from 'react'
 import PlumberFeature from '../moleculus/PlumberFeature'
 import { FaArrowRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const PlumberQuality = () => {
   return (
@@ -21,7 +22,7 @@ const PlumberQuality = () => {
               <PlumberFeature data-aos="fade-up" data-aos-duration="3000" text='transparent comunications' />
             </div>
           </div>
-          <a href="#" data-aos="fade-up" className='decoration-none text-white text-[14px] font-medium text-white bg-blue-500 border-[1px] border-blue-500  hover:text-blue-500 hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > About Us <FaArrowRight /> </a>
+          <Link href="/about" data-aos="fade-up" className='decoration-none text-white text-[14px] font-medium text-white bg-blue-500 border-[1px] border-blue-500  hover:text-blue-500 hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > About Us <FaArrowRight /> </Link>
         </div>
         <div data-aos="zoom-in-left"  className="right  w-[45%] ">
           <img className='w-[100%]' src="/assits/images/plumber.jpg" alt="" />

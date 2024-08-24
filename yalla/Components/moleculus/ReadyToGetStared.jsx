@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../atoms/Container";
+import Link from "next/link";
 
 const ReadyToGetStared = () => {
   return (
@@ -15,9 +16,10 @@ const ReadyToGetStared = () => {
           free consultation and quote. Let us help you tun your villa into a
           colorful and lively home that you will enjoy.
         </p>
-        <button className="px-[50px] py-[15px] cursor-pointer text-white bg-blue-900 rounded-lg mt-[30px]">
+        {/* <button className="px-[50px] py-[15px] cursor-pointer text-white bg-blue-900 rounded-lg mt-[30px]">
           Contact Now
-        </button>
+        </button> */}
+        <Link href='/contactus'  className="px-[50px] py-[15px] cursor-pointer text-white bg-blue-900 rounded-lg mt-[30px]">Contact Now</Link>
       </div>
     </Container>
   );

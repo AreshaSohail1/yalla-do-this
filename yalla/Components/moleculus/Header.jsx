@@ -4,6 +4,10 @@ import "../../app/globals.css";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
 import { IoMdMenu } from "react-icons/io";
+import Link from "next/link";
+
+
+
 
 function Header() {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -13,6 +17,7 @@ function Header() {
   const toggleNav = () => {
     setNavOpen(!isNavOpen);
   };
+
 
   const toggleDesktopDropdown = () => {
     setDesktopDropdownVisible(!isDesktopDropdownVisible);
@@ -28,36 +33,36 @@ function Header() {
         {/* Desktop Navigation */}
         <ul className="gap-[50px] xl:flex xl:items-center xl:justify-center lg:flex lg:items-center lg:justify-center md:flex md:items-center md:justify-center sm:hidden hidden">
           <li>
-            <AnchorTag variant="Header" href="/">Home</AnchorTag>
+            <Link href="/" className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300">Home</Link>
           </li>
           <li>
-            <AnchorTag variant="Header" href="/about">About</AnchorTag>
+            <Link  href="/about" className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300">About</Link>
           </li>
           <li className="relative">
-            <AnchorTag
-              variant="Header"
+            <Link
+              className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300"
               href="#"
               onMouseEnter={toggleDesktopDropdown}
               onclick={toggleDesktopDropdown}
             >
               Services <IoIosArrowDown />
-            </AnchorTag>
+            </Link>
             {isDesktopDropdownVisible && (
               <ul className="dropdown absolute divide-y bg-white z-[9999] visible w-[230px] py-[10px] pr-[50px] pl-[30px]">
-                <li><AnchorTag variant="Headerh" href="/acservice">AC Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/service">Other Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/tileservice">Tiles Fixing</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/electricservice">Electrician Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/plumbing">Handyman & Plumber</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/bathroom">Bathroom Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/painting">Painting Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/kitchen">Kitchen Service</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/celling">Gypsum Ceiling</AnchorTag></li>
+                <li><Link href="/acservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">AC Services</Link></li>
+                <li><Link href="/service" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Other Services</Link></li>
+                <li><Link href="/tileservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Tiles Fixing</Link></li>
+                <li><Link href="/electricservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Electrician Services</Link></li>
+                <li><Link href="/plumbing" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Handyman & Plumber</Link></li>
+                <li><Link href="/bathroom" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Bathroom Services</Link></li>
+                <li><Link href="/painting" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Painting Services</Link></li>
+                <li><Link href="/kitchen" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Kitchen Service</Link></li>
+                <li><Link href="/celling" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Gypsum Ceiling</Link></li>
               </ul>
             )}
           </li>
           <li>
-            <AnchorTag variant="Header" href="/contactus">Contact</AnchorTag>
+            <Link  href="/contactus"  className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300" >Contact</Link>
           </li>
         </ul>
 
@@ -83,35 +88,35 @@ function Header() {
 
         <ul className="flex flex-col items-center justify-center mt-4">
           <li>
-            <AnchorTag variant="Header" href="/" onClick={toggleNav}>Home</AnchorTag>
+            <Link  href="/"  className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300"  onClick={toggleNav}>Home</Link>
           </li>
           <li>
-            <AnchorTag variant="Header" href="/about" onClick={toggleNav}>About</AnchorTag>
+            <Link  href="/about" className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300" onClick={toggleNav}>About</Link>
           </li>
           <li className="relative">
-            <AnchorTag
-              variant="Header"
+            <Link
+              className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300" 
               href="#"
               onClick={toggleMobileDropdown}
             >
               Services <IoIosArrowDown />
-            </AnchorTag>
+            </Link>
             {isMobileDropdownVisible && (
               <ul className="dropdown bg-white z-[9999] visible py-[10px] w-[100%]">
-                <li><AnchorTag variant="Headerh" href="/acservice" onClick={toggleNav}>AC Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/service" onClick={toggleNav}>Other Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/tileservice" onClick={toggleNav}>Tiles Fixing</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/electricservice" onClick={toggleNav}>Electrician Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/plumbing" onClick={toggleNav}>Handyman & Plumber</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/bathroom" onClick={toggleNav}>Bathroom Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/painting" onClick={toggleNav}>Painting Services</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/kitchen" onClick={toggleNav}>Kitchen Service</AnchorTag></li>
-                <li><AnchorTag variant="Headerh" href="/celling" onClick={toggleNav}>Gypsum Ceiling</AnchorTag></li>
+                 <li><Link href="/acservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">AC Services</Link></li>
+                 <li><Link href="/service" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Other Services</Link></li>
+                <li><Link href="/tileservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Tiles Fixing</Link></li>
+                <li><Link href="/electricservice" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Electrician Services</Link></li>
+                <li><Link href="/plumbing" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Handyman & Plumber</Link></li>
+                <li><Link href="/bathroom" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Bathroom Services</Link></li>
+                <li><Link href="/painting" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Painting Services</Link></li>
+                <li><Link href="/kitchen" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Kitchen Service</Link></li>
+                <li><Link href="/celling" className="leading-[40px] hover:text-[#ff6a28] cursor-pointer text-[#747474] text-[14px] font-semibold">Gypsum Ceiling</Link></li>
               </ul>
             )}
           </li>
           <li>
-            <AnchorTag variant="Header" href="/contactus" onClick={toggleNav}>Contact</AnchorTag>
+            <Link href="/contactus" className="flex items-center leading-[50px] hover:text-[#F97300] cursor-pointer text-[#747474] text-[15px] font-[600] ease-in duration-300" onClick={toggleNav}>Contact</Link>
           </li>
         </ul>
       </div>

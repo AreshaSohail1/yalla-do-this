@@ -32,8 +32,9 @@ function Footer() {
                             </div>
                             <div className='grid gap-[10px] flex flex-col items-center justify-center  xl:order-none lg:order-none md:order-none sm:order-3 order-3'>
                                 <div className='flex gap-[15px] '>
-                                    <FaRegEnvelope className='text-[#F97300] ' />
-                                    <Span level='footer'><a href="mailto:waqaswqspk@gmail.com">waqaswqspk@gmail.com</a></Span>
+                                   <Link href='mailto:waqaswqspk@gmail.com'> <FaRegEnvelope className='text-[#F97300] ' /></Link>
+                                    {/* <Span level='footer'><a href="mailto:waqaswqspk@gmail.com">waqaswqspk@gmail.com</a></Span> */}
+                                    <Link href='mailto:waqaswqspk@gmail.com' className='text-[16px] cursor-pointer text-[#8b8a8a]  font-normal'>waqaswqspk@gmail.com</Link>
                                 </div>
                                 {/* <div className='flex gap-[15px]'>
                                     <FaMobileAlt className='text-[#F97300] ' />
@@ -42,16 +43,16 @@ function Footer() {
                             </div>
                             <div>
                                 <div className='xl:flex  gap-[20px] my-[3%] text-[#F97300] text-[18px]  sm:flex sm:items-center sm:justify-center  flex items-center justify-center  '>
-                                    <FaFacebookF className=' hover:text-[#4ab7c3] ease-in duration-300' />
-                                    <FaInstagram className=' hover:text-[#4ab7c3] ease-in duration-300' />
-                                    <FaTwitter className=' hover:text-[#4ab7c3] ease-in duration-300' />
-                                    <FaYoutube className=' hover:text-[#4ab7c3] ease-in duration-300' />
+                                    <Link href=''><FaFacebookF className=' hover:text-[#4ab7c3] ease-in duration-300' /></Link>
+                                    <Link href=''><FaInstagram className=' hover:text-[#4ab7c3] ease-in duration-300' /></Link>
+                                    <Link href=''><FaTwitter className=' hover:text-[#4ab7c3] ease-in duration-300' /></Link>
+                                    <Link href=''><FaYoutube className=' hover:text-[#4ab7c3] ease-in duration-300' /></Link>
                                 </div>
                             </div>
                             <div className=' text-[#399918] py-[5%] flex justify-center '>
-                                <a href="tel:+971 0508786126">
+                                <Link href="tel:+971 0508786126">
                                     <IoLogoWhatsapp className='text-[50px] ' />
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
@@ -72,9 +73,9 @@ function Footer() {
                         <div className='flex flex-col mt-6 items-center justify-center xl:order-none lg:order-none md:order-none sm:order-5 order-5'>
                             <Heading level="4">Support</Heading>
                             <div className='grid gap-[10px] mt-[20px] '>
-                                <AnchorTag href='/contactus' variant='footer'>Contact Us</AnchorTag>
-                                <AnchorTag variant='footer'>Ticket Support</AnchorTag>
-                                <AnchorTag variant='footer'>FAQ</AnchorTag>
+                                <Link href='/contactus' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma' variant='footer'>Contact Us</Link>
+                                <Link href=''  className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>Ticket Support</Link>
+                                <Link href='' className='text-[14px]  cursor-pointer text-[#747474] hover:text-[#4ab7c3] font-norma'>FAQ</Link>
                             </div>
                         </div>
 
@@ -96,9 +97,9 @@ function Footer() {
             <div className="bg-[#45a6af] text-[14px]  text-white  w-[100%] py-[30px]  flex flex-col items-center justify-center sm:flex sm:flex-col sm:items-center sm:justify-center md:flex md:flex-row md:px-[10px] md:items-center md:justify-between lg:flex lg:flex-row lg:px-[50px] lg:justify-between xl:flex xl:flex-row xl:px-[50px] xl:justify-between  ">
                 <p className='order-2 sm:order-2 md:order-none lg:order-none xl:order-none'>Copyright © 2022 Jezzcool, All rights reserved. Powered by MoxCreative.</p>
                 <div className=' gap-[10px] xl:flex xl:flex-row xl:pb-0 xl:items-center xl:jusitfy-center lg:flex lg:flex-row lg:items-center lg:pb-0 lg:jusitfy-center md:xl:flex md:flex-row md:items-center md:pb-0 md:jusitfy-center sm:flex sm:flex-col sm:items-center sm:pb-4 sm:jusitfy-center flex flex-col pb-4 items-center jusitfy-center order-1 sm:order-1 md:order-none lg:order-none xl:order-none'>
-                    <AnchorTag >Term of use</AnchorTag>
-                    <AnchorTag >Privacy policy</AnchorTag>
-                    <AnchorTag >Cookie policy</AnchorTag>
+                    <Link href='' >Term of use</Link>
+                    <Link href='' >Privacy policy</Link>
+                    <Link href='' >Cookie policy</Link>
                 </div>
             </div>
         </div>

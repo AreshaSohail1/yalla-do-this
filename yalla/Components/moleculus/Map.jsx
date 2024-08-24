@@ -5,6 +5,7 @@ import { IoLocation } from 'react-icons/io5';
 import Span from '../atoms/Span';
 import { IoMdMail } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
+import Link from 'next/link';
 
 
 function Map() {
@@ -32,21 +33,27 @@ function Map() {
                         <div className='flex  items-center justify-evenly'>
                             <div className='flex   items-center text-center gap-2'>
                                 <IoLocation className='text-2xl' />
-                                <Span level='contact'>Al Qouz, Dubai</Span>
+                                {/* <Span level='contact'>Al Qouz, Dubai</Span> */}
+                                <Link href="" className='text-[14px] font-[400] text-black'>Al Qouz, Dubai</Link>
                             </div>
                             <div className='flex-col'>
                                 <Paragraph></Paragraph>
                             </div>
                             <div className='flex items-center text-center gap-2'>
-                                <IoMdMail className='text-2xl' />
-                                <Span level='contact'>waqaswqspk@gmail.com</Span>
+                                <Link href='mailto:waqaswqspk@gmail.com'><IoMdMail className='text-2xl' /></Link>
+                                {/* <Span level='contact'>waqaswqspk@gmail.com</Span> */}
+                                <Link href='mailto:waqaswqspk@gmail.com' className='text-[14px] font-[400] text-black'>waqaswqspk@gmail.com</Link>
                             </div>
                         </div>
                         
 
                         <div className='flex text-center items-center justify-center  mr-[12%] gap-[10px] pt-[30px]'>
-                            <IoCall className='text-[25px]' />
-                            <Span level='contact'>00971 50 8786126</Span>
+                           <Link href='tel:00971 50 8786126'> <IoCall className='text-[25px]' /></Link>
+                            {/* <Span level='contact'>00971 50 8786126</Span> */}
+                            <Link href='tel:00971 50 8786126' className='text-[14px] font-[400] text-black'>
+                           
+                            00971 50 8786126
+                            </Link>
                         </div>
 
                     </div>

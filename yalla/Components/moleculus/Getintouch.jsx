@@ -5,6 +5,7 @@ import { IoCall } from "react-icons/io5";
 import AnchorTag from '../atoms/Anchortag';
 import { IoMdMail } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
+import Link from 'next/link';
 
 function Getintouch() {
     return (
@@ -17,18 +18,18 @@ function Getintouch() {
                     </div>
                    <div className=' pt-[5%] gap-[50px]  xl:grid xl:grid-cols-3 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 sm:grid sm:grid-cols-1 grid grid-cols-1 sm:my-[50px] my-[50px]'>
                    <div className='bg-white flex flex-col items-center text-center gap-[20px] justify-center h-[200px] text-[#164b8d]  '>
-                        <IoCall className='items-center text-[40px]' />
-                        <AnchorTag variant='danger'>0508786126</AnchorTag>
+                        <Link href='tel:00971 50 8786126'><IoCall className='items-center text-[40px]' /></Link>
+                       <Link href='tel:00971 50 8786126' className='text-[22px] text-[#164b8d] cursor-pointer font-[500]'> 00971 50 8786126</Link>
                     </div>
 
                     <div className='bg-white flex flex-col items-center text-center gap-[20px] justify-center h-[200px] text-[#164b8d]'>
-                        <IoMdMail  className='items-center text-[40px]' />
-                        <AnchorTag variant='danger'>waqaswqspk@gmail.com</AnchorTag>
+                       <Link href='mailto:waqaswqspk@gmail.com'> <IoMdMail  className='items-center text-[40px]' /></Link>
+                        <Link href='mailto:waqaswqspk@gmail.com'>waqaswqspk@gmail.com</Link>
                     </div>
 
                     <div className='bg-white flex flex-col items-center text-center gap-[20px] justify-center h-[200px] text-[#164b8d]'>
-                        <IoLocation className='items-center text-[40px]' />
-                        <AnchorTag variant='danger'>Al Qouz, Dubai</AnchorTag>
+                        <Link href=''><IoLocation className='items-center text-[40px]' /></Link>
+                        <Link href='' className='text-[22px] text-[#164b8d] cursor-pointer font-[500]' >Al Qouz, Dubai</Link>
                     </div>
                    </div>
                     

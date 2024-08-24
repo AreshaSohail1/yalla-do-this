@@ -11,7 +11,7 @@ function Cellingall() {
             <div>
                 <Cellingbanner content={'Gypsum Ceiling'}
                  paragraph={'It provides ac repair services in the range of split air conditioner  window air conditioner central air conditioners andother power cooling systems'}
-                 button={'Quick Quote'}
+                 button={'Contact us'}
                  />
                  </div>
     

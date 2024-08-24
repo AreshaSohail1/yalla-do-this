@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 
@@ -16,7 +17,7 @@ const PlumberResponse = () => {
                     professionalism of our work. Every residential plumbing
                     technician for the uniformed and badged, and will arrive
                     at your home.</p>
-                <a data-aos="fade-up-left" data-aos-duration="2000" href="#" className='decoration-none text-white text-[14px] font-medium text-white bg-blue-500 border-[1px] border-blue-500  hover:text-blue-500 hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > Book A Visits <FaArrowRight /> </a>
+                <Link href='#' data-aos="fade-up-left" data-aos-duration="2000"  className='decoration-none text-white text-[14px] font-medium text-white bg-blue-500 border-[1px] border-blue-500  hover:text-blue-500 hover:bg-white duration-[0.3s] ease-in-out py-[10px] rounded-[13px] w-[120px] text-center  flex items-center gap-[5px] justify-center' > Book A Visits <FaArrowRight /> </Link>
 
             </div>
         </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import  AnchorTag from '@/Components/atoms/Anchortag'
+import Link from 'next/link';
 const images = [
   '/assits/images/pic1.jpg',
   '/assits/images/pic2.jpg',
@@ -34,7 +35,7 @@ const AcBanner = ({ content, anchortag, paragraph }) => {
           <div className="text-[#1e73be] uppercase text-[50px] font-bold mb-5">{content}</div>
           <div className="text-[18px] font-[300] leading-[30px]    ">{paragraph}</div>
           <div className='pt-[20px]'>
-          <AnchorTag variant='acservicebtn' href="/contactus" >{anchortag}</AnchorTag>
+          <Link href="/contactus" className='mt-[6%] bg-[#164b8d] text-center text-[24px] w-[43%]  hover:bg-[#F97300] ease-in duration-300 font-[300] rounded-[30px] py-[10px] px-[25px] cursor-pointer' >{anchortag}</Link>
           </div>
         </div>
       </div>

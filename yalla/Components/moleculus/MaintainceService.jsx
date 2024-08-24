@@ -1,5 +1,6 @@
 import React from 'react';
 import Maintanceflow from './Maintanceflow';
+import Link from 'next/link';
 
 function MaintainceService() {
     return (
@@ -11,7 +12,8 @@ function MaintainceService() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br /> ullamcorper mattis, pulvinar dapibus leo.
                     </p>
                     <div className="bg-[#f35748] hover:bg-[#45a6af] rounded-md  mt-[25px]  py-[15px] items-center flex justify-center xl:w-[35%] lg:w-[35%] md:w-[40%] sm:w-[60%] w-[80%] ">
-                        <button className='flex items-center  text-white text-[16px]  font-[600] '>Claim promo !</button>
+                        {/* <button className='flex items-center  text-white text-[16px]  font-[600] '>Claim promo !</button> */}
+                        <Link href='/contactus' className='flex items-center  text-white text-[16px]  font-[600] '>Contact us</Link>
                     </div>
                 </div>
 
